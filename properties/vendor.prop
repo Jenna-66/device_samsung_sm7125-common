@@ -182,6 +182,9 @@ ro.vendor.fingerprint.request_touch_event=true
 ro.vendor.fingerprint.type=udfps_optical
 ro.vendor.fingerprint.max_enrollments=3
 
+# Incremental FS
+ro.incremental.enable=true
+
 # Gatekeeper
 ro.hardware.gatekeeper=mdfpp
 
