@@ -1,0 +1,26 @@
+cc_binary {
+    name: "RemovePackages",
+    recovery: false,
+    vendor: true,
+    srcs: ["dummy.cpp",],
+    overrides: [
+        "com.android.hotwordenrollment.common.util",
+        "AudioFX",
+        "Browser2",
+        "Calendar",
+        "Etar",
+        "ExactCalculator",
+        "Gallery2",
+        "Glimpse",
+        "HotwordEnrollmentOKGoogleEx3HEXAGON",
+        "HotwordEnrollmentXGoogleEx3HEXAGON",
+        "Jelly",
+        "MatLog",
+        "Music",
+        "MusicFX",
+        "SystemUpdater",
+        "Twelve",
+        "Updater",
+    ],
+}
+
