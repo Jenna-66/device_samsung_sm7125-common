@@ -34,7 +34,7 @@
     <bool name="config_device_vt_available">true</bool>
 
     <!-- Flag specifying whether WFC over IMS is available on device -->
-        <bool name="config_device_wfc_ims_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
 
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
@@ -1452,4 +1452,7 @@
         <item>40</item>
         <item>40</item>
     </integer-array>
+
+    <!-- If this is true, device supports Sustained Performance Mode. -->
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
 </resources>
