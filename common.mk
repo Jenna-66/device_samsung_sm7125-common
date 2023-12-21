@@ -394,6 +394,14 @@ $(call soong_config_set,samsungVibratorVars,duration_amplitude,true)
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
 
+# Set support hide display cutout feature
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_hide_display_cutout=true
+
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay
+
 # Tether
 PRODUCT_PACKAGES += \
     ipacm \
