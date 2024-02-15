@@ -1393,4 +1393,7 @@
          Refer to autosuspend.h for details.
     -->
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+
+    <!-- Whether Google Photos is spoofed to Pixel XL for unlimited photos backup -->
+    <bool name="config_GPhotosSpoofPixelXL">true</bool>
 </resources>
