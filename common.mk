@@ -240,6 +240,12 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     $(COMMON_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
 
+# microG
+PRODUCT_PACKAGES += \
+    GmsCore \
+    GmsCompanion \
+    GsfProxy
+
 # Minijail
 PRODUCT_PACKAGES += \
     libavservices_minijail \
