@@ -1396,4 +1396,7 @@
 
     <!-- Whether Google Photos is spoofed to Pixel XL for unlimited photos backup -->
     <bool name="config_GPhotosSpoofPixelXL">true</bool>
+
+    <!-- Display color inversion availability -->
+    <bool name="config_displayInversionAvailable">false</bool>
 </resources>
