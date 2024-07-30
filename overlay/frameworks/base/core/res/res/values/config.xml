@@ -1264,12 +1264,6 @@
          The user is forbidden from setting the brightness above this level. -->
     <item name="config_screenBrightnessSettingMaximumFloat" format="float" type="dimen">1.0</item>
 
-    <!-- The default peak refresh rate for a given device. Change this value if you want to prevent
-         the framework from using higher refresh rates, even if display modes with higher refresh
-         rates are available from hardware composer. Only has an effect if the value is
-         non-zero. -->
-    <integer name="config_defaultPeakRefreshRate">60</integer>
-
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
          on the headphone/microphone jack. When false use the older uevent framework. -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
@@ -1395,4 +1389,11 @@
         <item>500</item>
         <item>600</item>
     </integer-array>
+
+    <!-- Refresh rate configs -->
+    <integer name="config_defaultFixedOnPeakRefreshRate">0</integer>
+    <integer name="config_defaultMinRefreshRate">60</integer>
+    <integer name="config_defaultPeakRefreshRate">90</integer>
+    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_defaultRefreshRateInZone">90</integer>
 </resources>
