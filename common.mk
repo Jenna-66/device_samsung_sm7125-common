@@ -178,6 +178,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore \
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
