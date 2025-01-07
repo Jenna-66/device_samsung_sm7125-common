@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service \
     libtinyxml \
     libtinyxml2 \
-    hwcomposer.qcom \
+    hwcomposer.sm7125 \
     libqdMetaData \
     libdisplayconfig.qti \
     vendor.qti.hardware.display.mapper@1.1.vendor \
