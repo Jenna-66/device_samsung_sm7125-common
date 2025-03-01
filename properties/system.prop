@@ -14,6 +14,9 @@ pm.dexopt.bg-dexopt=everything
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
+# display
+sys.brightness.disable_gamma_conversion=true
+
 # Disable Skia tracing by default
 debug.hwui.skia_tracing_enabled=false
 debug.hwui.skia_use_perfetto_track_events=false
