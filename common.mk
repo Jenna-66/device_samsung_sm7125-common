@@ -65,6 +65,9 @@ PRODUCT_PACKAGES += \
     libprocessgroup.vendor \
     libqti_vndfwk_detect.vendor_32
 
+# Volume Synchronizer
+PRODUCT_PACKAGES += VolumeSynchronizer
+
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/audio/configs/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
     $(COMMON_PATH)/audio/configs/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
