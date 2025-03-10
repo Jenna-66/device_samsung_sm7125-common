@@ -45,7 +45,6 @@ lib_fixups: lib_fixups_user_type = {
         'libhfplibcirrusspkrprot',
         'libspkrprot',
         'vendor.qti.hardware.fm@1.0',
-        'libsecril-client',
     ): lib_fixup_vendor_suffix,
     (
         'libwpa_client',

@@ -755,7 +755,7 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libril_sem.so
 vendor/lib64/libsec-ril.so|89059627966559344cc526e7a533d4284afca1d4
-vendor/lib64/libsecril-client.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libsecril-client.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libxml.so
