@@ -38,10 +38,7 @@ vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
-vendor/lib64/libSNPE.so
 vendor/lib64/libc++_shared.so
-vendor/lib64/libsnpe_dsp_domains_v2.so
-vendor/lib64/libsnpe_wrapper.so
 
 # Audio
 vendor/lib/btaudio_offload_if.so
@@ -237,7 +234,6 @@ vendor/lib/unihal_cutils@2.15.so
 vendor/lib/unihal_main@2.15.so
 vendor/lib/unihal_uniplugin@1.0.so
 vendor/lib64/camera/com.qti.eeprom.n24s64b_imx616.so
-vendor/lib64/camera/com.qti.eeprom.sec2qcconversion.so
 vendor/lib64/camera/com.samsung.sensor.gc5035_macro.so
 vendor/lib64/camera/com.samsung.sensor.hi1336.so
 vendor/lib64/camera/com.samsung.sensor.imx616.so
@@ -285,8 +281,6 @@ vendor/lib64/camera/components/com.samsung.node.capture_bokeh.so
 vendor/lib64/camera/components/com.samsung.node.capture_fusion.so
 vendor/lib64/camera/components/com.samsung.node.realtimebokeh.so
 vendor/lib64/camera/components/com.samsung.node.remosaic.so
-vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
-vendor/lib64/camera/components/com.wrapper.stats.aec.so
 vendor/lib64/camera/components/com.wrapper.stats.af.so
 vendor/lib64/camera/components/com.wrapper.stats.awb.so
 vendor/lib64/camera/components/com.wrapper.stats.pdlib.so
