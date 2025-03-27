@@ -1,4 +1,4 @@
-# All blobs are from A525FXXSAFYB1 (U), unless pinned
+# All blobs are from A525FXXSBFYC1 (U), unless pinned
 #
 # Media (Codec2) - from sunfish - TQ3A.230805.001.S2
 
