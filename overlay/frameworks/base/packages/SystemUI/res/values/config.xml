@@ -10,11 +10,17 @@
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
 
-    <!-- Threshold in micro watts above which a charger is rated as "fast"; 2.16A @ 5V  -->
-    <integer name="config_chargingFastThreshold">10800000</integer>
-
     <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
     <integer name="config_keyguardMaxRefreshRate">60</integer>
+
+    <!-- Threshold in milli watts below which a charger is rated as "slow"; 0.5A @ 5V -->
+    <integer name="config_chargingSlowlyThreshold">2500</integer>
+
+    <!-- Threshold in milli watts above which a charger is rated as "fast"; 2A @ 5V  -->
+    <integer name="config_chargingFastThreshold">10000</integer>
+
+    <!-- Threshold in milli watts above which a charger is rated as "fast"; 10W  -->
+    <integer name="config_chargingFastThreshold_v2">10000</integer>
 
     <!-- Charging info current divider, if needed -->
     <integer name="config_currentInfoDivider" translatable="false">1</integer>
